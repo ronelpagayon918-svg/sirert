@@ -109,8 +109,8 @@ video.mock{width:100%;max-width:720px;border-radius:var(--radius);border:1px sol
   .paper{border:none;padding:0;max-width:none;font-size:10.5pt;line-height:1.4}
   .paper h4{margin:12px 0 5px}
   .paper p,.paper ul{font-size:10pt}
-  .paper .top{padding-bottom:10px}
-  .paper .top img{width:96px;height:120px}
+  .paper .bot{padding-bottom:10px}
+  .paper .bot img{width:96px;height:120px}
   .paper h3{font-size:1.5rem}
   @page{margin:16mm}
 }
