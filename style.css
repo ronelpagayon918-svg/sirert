@@ -104,4 +104,15 @@ video.mock{width:100%;max-width:720px;border-radius:var(--radius);border:1px sol
 @media(max-width:720px){.paper{padding:24px 20px}.paper .top{flex-direction:column}.paper .cols{grid-template-columns:1fr}}
 .profile-photo{padding:0;overflow:hidden;align-self:start;max-width:320px;justify-self:center;width:100%}
 .profile-photo img{width:100%;display:block;aspect-ratio:3/4;object-fit:cover;object-position:50% 15%}
-
+@media print{
+  body{background:#fff}
+  header,footer,main>section:not(#resume),.noprint,#resume h2,#resume .sub{display:none!important}
+  #resume{padding:0;border:none}
+  .paper{border:none;padding:0;max-width:none;font-size:10.5pt;line-height:1.4}
+  .paper h4{margin:12px 0 5px}
+  .paper p,.paper ul{font-size:10pt}
+  .paper .top{padding-bottom:10px}
+  .paper .top img{width:96px;height:120px}
+  .paper h3{font-size:1.5rem}
+  @page{margin:16mm}
+}
