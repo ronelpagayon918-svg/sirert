@@ -102,8 +102,6 @@ video.mock{width:100%;max-width:720px;border-radius:var(--radius);border:1px sol
 .paper .row span{color:#555;font-size:.9rem;white-space:nowrap}
 .paper .cols{display:grid;grid-template-columns:1fr 1fr;gap:0 28px}
 @media(max-width:720px){.paper{padding:24px 20px}.paper .top{flex-direction:column}.paper .cols{grid-template-columns:1fr}}
-.profile-photo{padding:0;overflow:hidden;align-self:start;max-width:320px;justify-self:center;width:100%}
-.profile-photo img{width:100%;display:block;aspect-ratio:3/4;object-fit:cover;object-position:50% 15%}
 @media print{
   body{background:#fff}
   header,footer,main>section:not(#resume),.noprint,#resume h2,#resume .sub{display:none!important}
@@ -116,3 +114,6 @@ video.mock{width:100%;max-width:720px;border-radius:var(--radius);border:1px sol
   .paper h3{font-size:1.5rem}
   @page{margin:16mm}
 }
+.profile-photo{padding:0;overflow:hidden;align-self:start;max-width:320px;justify-self:center;width:100%}
+.profile-photo img{width:100%;display:block;aspect-ratio:3/4;object-fit:cover;object-position:50% 15%}
+
